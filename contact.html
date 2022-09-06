@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+
+   
+</head>
+<body>
+    <section id="contactME">
+        <h1>Contact Us</h1>
+        <form action="https://formsubmit.co/sarahham453@gmail.com" method="POST">
+<div class="field">
+    <label for="Name">Name</label>
+    <input class="input"
+     type="text"
+      name="Name"
+       placeholder="write your name"
+    required   >
+</div>
+<div class="field">
+    <label for="email">Email</label>
+    <input class="input"
+    type="email"
+     name="Email"
+      placeholder="write your Email"
+   required 
+   >
+</div>
+<div class="field">
+<label for="msg">Msg</label>  <input class="input"
+type="text"
+ name="msg"
+  placeholder="write about your restaurant"
+required 
+></div>
+<input id="sarah" class="button hvr-bounce-in" type="submit" value="send" >
+        </form>
+    </section>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.getElementById(`sarah`).addEventListener("click" ,function(){
+        Swal.fire({
+
+      icon: 'success',
+      iconColor:`#e27396`,
+     text:`We wish you a nice day`,
+      title: " Thank you ,Your message has been send",  
+      showConfirmButton: true,
+      confirmButtonColor:`#e27396`,
+      color:`#b3dee2`,
+      imageUrl:`https://c.tenor.com/YVHsdeC9yFoAAAAM/friends.gif`,
+      imageWidth:`200`,
+      imageHeight:`200`,
+      background:`#eaf2d7`,
+      backdrop:`#c8b6ff91`,
+
+})
+    } )
+    AOS.init();
+  </script>
+</body>
+</html>

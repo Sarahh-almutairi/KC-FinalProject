@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./login.css">
+  <title>Login page</title>
+</head>
+<body>
+    <div class="main">
+      <div class="container">
+        <div id="square">
+          <div class="front">
+            <h1>Login</h1>
+            <form action="#" method="post">
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                required
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <button type="submit" class="sub hvr-wobble-vertical">Submit</button>
+            </form>
+          </div>
+          <div class="right">
+            <h1>Create a new account</h1>
+            <form action="#" method="post">
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <input
+                required
+                type="text"
+                name="fullName"
+                id="fullName"
+                placeholder="Full name"
+              />
+              <input
+                required
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+              <button type="submit" class="sub hvr-wobble-vertical">Submit</button>
+            </form>
+          </div>
+          <div class="left">
+            <h1>Add your email to reset password</h1>
+            <form action="#" method="post">
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+              />
+              <button type="submit" class="sub hvr-wobble-vertical">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="actions">
+          <button id="leftSide" type="button" class="sub hvr-wobble-vertical">Forgot Password</button>
+          <button id="frontSide" type="button" class="sub hvr-wobble-vertical">Login</button>
+          <button id="rightSide" type="button" class="sub hvr-wobble-vertical">Sign up</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./login.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+ 
+
+    document.getElementById(`frontSide`).addEventListener("click" ,function(){
+        Swal.fire({
+
+      icon: 'success',
+      iconColor:`#e27396`,
+     text:`Thank you`,
+      title: "You are logged in !",  
+      showConfirmButton: true,
+      confirmButtonColor:`#e27396`,
+      color:`#b3dee2`,
+      imageUrl:`https://c.tenor.com/YVHsdeC9yFoAAAAM/friends.gif`,
+      imageWidth:`200`,
+      imageHeight:`200`,
+      background:`#eaf2d7`,
+      backdrop:`#c8b6ff91`,
+
+})
+    } )
+
+
+    
+    </script>
+</body>
+</html> 

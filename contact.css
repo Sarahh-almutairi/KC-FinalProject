@@ -1,0 +1,76 @@
+body{
+background-color: #e27396 ;
+height: 100vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+#contactME {
+background-color: #eaf2d7;
+width: 80%;
+text-align: center;
+margin: 100px;
+padding: 50px;
+border: 15px solid #efcfe3;
+
+}
+h1{
+    margin-bottom: 25px;
+    margin-top: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #b3dee2;
+    
+}
+form {
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.field {
+    margin-bottom: 25px;
+    width: 100%;
+    display: grid;
+    position: relative;
+}
+label {
+    color: #b3dee2;
+    background-color: #ea9ab2;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    width: 700px;
+    padding: 0;
+    font-weight: bolder;
+    position: absolute;
+}
+.input{
+    height: 50px;
+    outline: none;
+    width: 700px;
+padding-left: 20%;
+box-sizing: border-box;
+}
+.field:hover label {
+    width: 18%;
+    background-color: #e27396;
+    color: #b3dee2;
+transition: all 0.7s ease-in-out ;
+}
+#sarah {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    color: #b3dee2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+#sarah:hover {
+    background-color: #b3dee2;
+    color: #e27396;
+    transition: 0.3s ease-in-out;
+}

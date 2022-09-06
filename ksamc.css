@@ -1,0 +1,53 @@
+.container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    width: max-content;
+}
+.card{
+    border: 3px solid rgb(142, 239, 239);
+width: max-content;
+text-align: center;
+display: inline-block;
+margin: 5px;
+background-color: #fff;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.card img{
+    width: 190px;
+    padding: 5px;
+}
+.title{
+    font-weight: bold;
+    margin: 20px;
+}
+button{
+    border: 2px solid rgb(108, 67, 134);
+    background: #8899c1;
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+padding: 5px 10px;
+}
+button:hover {
+    box-shadow: 0 4px 8px 0 #e11ae1, 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+.happymeal{top: 900px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+    width: max-content;
+
+}
+.hpmid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hpm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
